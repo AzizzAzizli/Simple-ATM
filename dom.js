@@ -1,0 +1,12 @@
+const output = document.querySelector("#output");
+const balanceBtn = document.querySelector("#balance");
+const loading = document.querySelector("#loading");
+const intro = document.querySelector("#intro");
+const homeBtn= document.querySelector("#home");
+const balanceDiv = document.querySelector("#balanceDiv");
+const cashInBtn= document.querySelector("#cashInBtn");
+const divDone= document.querySelector("#divDone");
+const cashInDiv =document.querySelector("#cashInDiv");
+const enterBtn= document.querySelector("#enterBtn");
+const withdrawBtn= document.querySelector("#withdrawBtn");
+const withdrowEnter= document.querySelector("#withdrowEnter");
