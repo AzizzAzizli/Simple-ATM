@@ -118,6 +118,10 @@ withdrawBtn.addEventListener("click", function(){
   balanceDiv.classList.add("d-none");
 
   withdrowEnter.addEventListener("click", function(){
+if(document.querySelector("#cashInPut").value>user1.balance){
+  alert("You don't have enough money !!!")
+}
+ else{
     user1.withdraw();
   document.querySelector("#cashInPut").value=""
   loading.classList.remove("d-none");
@@ -138,7 +142,7 @@ withdrawBtn.addEventListener("click", function(){
       },1000)
 
   }, 3000);
-
+}
   })
 
  })
