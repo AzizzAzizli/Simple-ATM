@@ -45,7 +45,7 @@ document.querySelector("#welcome").innerHTML=`Welcome ${user1.fullName} `
 
 balanceBtn.addEventListener("click", function () {
   loading.classList.remove("d-none");
-  loading.style.display = "block";
+  loading.style.display = "d-block";
   intro.classList.remove("d-block");
   intro.classList.add("d-none");
   cashInDiv.classList.remove("d-block");
